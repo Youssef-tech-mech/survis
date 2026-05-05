@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html>
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>LLM Agents for Financial Decision-Making: A Literature Review</title>
 
     <script type="text/javascript" src="js/lib/bibtex_js.js"></script>
     <script type="text/javascript" src="js/lib/FileSaver.js"></script>
@@ -33,9 +34,49 @@
     <script type="text/javascript" src="js/page.js"></script>
     <script type="text/javascript" src="js/entry_layout.js"></script>
     <script type="text/javascript" src="js/timeline.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/codemirror.css">
+    <link rel="stylesheet" type="text/css" href="js/lib/tooltipster.css">
 </head>
 
-<body>
+<body id="survis_body">
+    <div id="survis">
+        <div id="header">
+            <div id="title"></div>
+            <div id="controls">
+                <div id="search_area">
+                    <input id="search_input" type="text" placeholder="search">
+                    <span id="search_clear" class="clickable">x</span>
+                </div>
+                <div id="view_controls">
+                    <span id="sort_control">
+                        sorted by <select id="sort_select">
+                            <option value="year_desc">year (newest first)</option>
+                            <option value="year_asc">year (oldest first)</option>
+                            <option value="title">title</option>
+                            <option value="author">author</option>
+                        </select>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="main_area">
+            <div id="filters">
+                <div id="timeline_div">
+                    <div id="timeline_title">Publications per year</div>
+                    <div id="timeline"></div>
+                </div>
+                <div id="tag_filters"></div>
+            </div>
+            <div id="entries_div">
+                <div id="entries_count"></div>
+                <div id="entries"></div>
+            </div>
+        </div>
+        <div id="entry_details_div">
+            <div id="entry_details"></div>
+        </div>
+    </div>
 </body>
-
 </html>
