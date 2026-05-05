@@ -22,7 +22,7 @@ const generatedBibEntries = {
     "title": "PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance",
     "year": "2023",
     "venue": "NeurIPS",
-    "doi": "10.48550/arXiv.2306.05443",
+    "doi": "10.52202/075280-1454",
     "keywords": "type:conference, llm_agents, nlp, finance",
     "abstract": "Introduces PIXIU, a comprehensive framework including the first financial LLM based on fine-tuning LLaMA with instruction data, alongside a large-scale multi-task instruction dataset and an evaluation benchmark for financial tasks."
   },
@@ -49,7 +49,7 @@ const generatedBibEntries = {
     "title": "When FLUE Meets FLANG: Benchmarks and Large Pretrained Language Model for Financial Domain",
     "year": "2022",
     "venue": "EMNLP",
-    "doi": "10.48550/arXiv.2211.00083",
+    "doi": "10.18653/v1/2022.emnlp-main.148",
     "keywords": "type:conference, nlp, finance",
     "abstract": "Proposes FLANG, a novel domain-specific Financial LANGuage model using financial keywords for better masking, and introduces the Financial Language Understanding Evaluation (FLUE) benchmark suite."
   },
@@ -77,7 +77,7 @@ const generatedBibEntries = {
     "year": "2021",
     "venue": "AAAI",
     "doi": "10.1609/aaai.v35i12.17325",
-    "keywords": "type:conference, time_series",
+    "keywords": "type:conference, time_series, finance",
     "abstract": "Presents Informer, an efficient transformer-based model for long-sequence time-series forecasting that reduces complexity and implements a direct multi-step (DMS) forecasting strategy."
   },
   "Wu2021": {
@@ -86,7 +86,7 @@ const generatedBibEntries = {
     "year": "2021",
     "venue": "NeurIPS",
     "doi": "10.48550/arXiv.2106.13008",
-    "keywords": "type:conference, time_series",
+    "keywords": "type:conference, time_series, finance",
     "abstract": "Introduces Autoformer, which breaks with the pre-processing convention of series decomposition to create a basic inner block of deep models, and utilizes an auto-correlation mechanism based on series periodicity for long-term forecasting."
   }
 };
