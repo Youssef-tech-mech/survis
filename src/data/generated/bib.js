@@ -20,10 +20,10 @@
     "Dong2025": {
         "author": "Dong, Y. and Wu, F. and Zhang, K. and Dai, Y.",
         "doi": "10.18653/v1/2025.findings-emnlp.972",
-        "journal": "Findings of EMNLP",
+        "booktitle": "Findings of EMNLP 2025",
         "keywords": "type:survey, llm_agents, finance",
         "title": "Large Language Model Agents in Finance: A Survey Bridging Research, Practice, and Real-World Deployment",
-        "type": "article",
+        "type": "inproceedings",
         "year": "2025"
     },
     "Koa2024": {
